@@ -13,7 +13,6 @@ using namespace std;
 #define mq greater
 using ii = pair<int, int>;
 
-
 deque<char> bina(int n){
     
     string r;
