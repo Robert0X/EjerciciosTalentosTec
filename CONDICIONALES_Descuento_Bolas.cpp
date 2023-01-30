@@ -28,7 +28,7 @@ int main(){
   if(al==2){
       cout << "Bola blanca, no tienes ningun descuento, tu pago es de: " << p;
   }
-  else cout << "Bola " << bol[al].s << " tu descuento es del " << bol[al].f*100 << " porciento, tu pago total es de: " << p-(p*bol[al].f);
+  else cout << "Bola " << bol[al].s << " tu descuento es del " << bol[al].f*100 << "% porciento, tu pago total es de: " << p-(p*bol[al].f);
   
   
   return 0;
